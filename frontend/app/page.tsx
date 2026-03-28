@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { useAuth } from './providers'
-import { Shield, Eye, Loader2 } from 'lucide-react'
+import { Sparkles, Eye, Loader2 } from 'lucide-react'
 
 export default function LoginPage() {
   const [email, setEmail] = useState('')
@@ -61,10 +61,10 @@ export default function LoginPage() {
           {/* Logo */}
           <div className="text-center mb-8">
             <div className="w-16 h-16 mx-auto rounded-2xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center mb-4 shadow-lg shadow-blue-500/25">
-              <Shield className="w-8 h-8 text-white" />
+              <Sparkles className="w-8 h-8 text-white" />
             </div>
-            <h1 className="text-2xl font-bold text-white">AntiCheat Vision</h1>
-            <p className="text-gray-400 mt-1 text-sm">Exam Surveillance System</p>
+            <h1 className="text-2xl font-bold text-white">Drushti AI</h1>
+            <p className="text-gray-400 mt-1 text-sm">Sign in to access your environments</p>
           </div>
 
           {/* Form */}
@@ -139,7 +139,7 @@ export default function LoginPage() {
 
         {/* Footer */}
         <p className="text-center text-gray-600 text-xs mt-6">
-          AntiCheat Vision System v1.0 — Final Year Project
+          Drushti AI v1.0 — Intelligent Surveillance Platform
         </p>
       </div>
     </div>

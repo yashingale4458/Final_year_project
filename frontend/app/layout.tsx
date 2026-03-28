@@ -6,8 +6,8 @@ import { Providers } from './providers'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'AntiCheat Vision System',
-  description: 'Real-time cheating detection for exam surveillance',
+  title: 'Drushti AI — Intelligent Surveillance Platform',
+  description: 'Drushti AI provides intelligent environments for real-time surveillance. Access the Anti-Cheat environment for exam monitoring and cheating detection.',
 }
 
 export default function RootLayout({

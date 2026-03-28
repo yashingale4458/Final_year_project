@@ -1,4 +1,4 @@
-// API Client for AntiCheat Vision System Backend
+// API Client for Drushti AI — Anti-Cheat Environment Backend
 
 import { Camera, Incident, DetectionSettings } from './api'
 

@@ -1,4 +1,4 @@
-// API types for the AntiCheat Vision System
+// API types for Drushti AI — Anti-Cheat Environment
 
 export interface Camera {
   id: string
