@@ -33,9 +33,10 @@ export default function LoginPage() {
   }
 
   // Allow bypass for development (no Supabase configured)
-  const handleDevLogin = () => {
-    router.push('/dashboard')
-  }
+ const handleDevLogin = () => {
+  document.cookie = 'dev-mode=true; path=/'
+  window.location.href = '/dashboard'
+}
 
   return (
     <div className="min-h-screen flex items-center justify-center relative overflow-hidden">
