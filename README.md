@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AntiCheat Vision System
 
 Real-time cheating detection web application for exam surveillance. Uses computer vision and deep learning to detect suspicious behaviors through classroom cameras.
@@ -117,3 +118,6 @@ Run `supabase/schema.sql` in your Supabase SQL Editor to create tables, indexes,
 ## License
 
 This project is part of a final year academic submission.
+=======
+# Final_year_project
+>>>>>>> 6ce5f3de57226d78bae5205f05f785e5af441200
